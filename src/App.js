@@ -4,6 +4,7 @@ import Cover from "./components/cover/Cover";
 import Navbar from "./components/navbar/Navbar";
 import About from "./components/about/About"
 import Slider from "./components/slider/Slider"
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Cover />
       <About />
       <Slider />
+      <Footer />
     </div>
   );
 }
